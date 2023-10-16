@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/Authentication.css">
+    <title>Authentication</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="section section-left">
+
+
+            <div class="h1-content">
+                <img src="images/Authentication/icon.png" alt="" id="h1-img">
+                <h1>Candleaf</h1>
+            </div>
+
+            <nav>
+                <ul id="header-links">
+                    <li id="nav-cart"><a href="cart.html"></a>Cart</li>
+                    <li> > </li>
+    
+                    <li id="nav-details">Details</li>
+                    <li> > </li>
+        
+                    <li>Shipping</li>
+                    <li> > </li>
+        
+                    <li>Payment</li>
+                </ul>
+            </nav>
+
+            <div class="contact">
+                
+                <div class="contact-info">
+                    <h2>Contact</h2>
+
+                    <div class="account-info">
+                        <p>Do you have an account?
+                            <p id="login">Login</p>
+                        </p>
+                    </div>
+                </div>
+
+                <input type="text" class="input input-contact" placeholder="Email or mobile phone number">
+
+                <div class="checkbox checkbox-contact">
+                    <input type="checkbox"> 
+                    <p>Add me to Candleaf newsletter for a 10% discount</p>
+                </div>
+
+            </div>
+
+
+            <div class="shipping">
+                
+                <h2>Shipping Address</h2>
+                
+                <div class="input inputs-shipping">
+                    <input class="input input-name" type="text" placeholder="Name"> 
+                    <input class="input input-surname" type="text" placeholder="Second Name">
+                    <input class="input input-address" type="text"placeholder="Address and Number">
+                    <input class="input input-note" type="text"placeholder="Shipping Note (Optional)">
+                    <input class="input input-city" type="text"placeholder="City">
+                    <input class="input input-postal" type="text"placeholder="Postal Code">
+                    <input class="input input-province" type="text"placeholder="Province">
+                    <input class="input input-country" type="text"placeholder="Country">
+                </div>
+                
+                <div class="checkbox checkbox-shipping">
+                    <input type="checkbox">
+                    <p>Save this informations for a future fast checkout</p>
+                </div>
+
+            </div> 
+
+            <div class="submit">
+                <a href="cart.html" id="back-to-cart">Back to Cart</a>
+                <a href="shipping.html"><button id="go-to-shipping">Go to Shipping</button></a>
+            </div>
+            
+        </div>
+        
+        <div class="section section-right">
+            
+            <div class="img-price">
+                <div>
+                    <img src="images/Authentication/product-image.png" alt="">
+                </div>
+                
+                <div class="description-price">
+                    <p id="candle-name">Spiced Mint Candleaf®</p>
+                    <p id="price">$ 9.99</p> 
+                </div>
+            
+            </div>
+
+            <div class="coupon-code">
+                <input type="text" placeholder="Coupon code" class="input input-coupon">
+                <button id="coupon-btn">Add Code</button>
+            </div>
+            
+            <div class="subtotal-shipping-price">
+
+                <div class="subtotal-price">
+                    <p>Subtotal</p>
+                    <p id="sub-price">$ 9.99</p>
+                </div>
+                <div class="shipping-price">
+                    <p>Shipping</p>
+                    <p>Calculated at the next step</p>
+                </div>
+
+            </div>
+
+            <div class="total">
+                <p>Total</p>
+                <p id="total-price">$ 9.99</p>    
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
